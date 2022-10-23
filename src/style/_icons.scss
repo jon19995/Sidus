@@ -1,0 +1,17 @@
+i.icon {
+    display: block;
+    width: 27px;
+    height: 22px;
+}
+
+i.icon__arrow {
+    background-image: url("@/assets/arrow.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    &.right {
+        transform: rotate(90deg);
+    }
+    &.left {
+        transform: rotate(-90deg);
+    }
+}
