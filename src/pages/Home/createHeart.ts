@@ -22,5 +22,6 @@ export const createHeart = async (node: HTMLElement) => {
 
     heartContainer.append(heart);
     node.appendChild(heartContainer);
-    setTimeout(() => (heartContainer.style.top = `${axisY}%`), 10);
+
+    setTimeout(() => (heartContainer.style.top = `${axisY}%`), 50);
 };
